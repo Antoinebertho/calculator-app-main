@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  background-color: hsl(222, 26%, 31%);
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.result {
+  width: 400px;
+  border-radius: 10px;
+}
+
+#result {
+  background-color: hsl(224, 36%, 15%);
+  height: 70px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  width: 90px;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px 0 10px 8px;
+  font-size: 25px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.reset,
+.egal {
+  width: 190px;
+}
+
+.delete {
+  background-color: hsl(225, 21%, 49%);
+  color: white;
+}
+
+.reset {
+  background-color: hsl(225, 21%, 49%);
+  color: white;
+}
+
+.egal {
+  background-color: hsl(6, 63%, 50%);
+  color: white;
+}
+
+.button-pad {
+  background-color: hsl(223, 31%, 20%);
+  border-radius: 10px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
